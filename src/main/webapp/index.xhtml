@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Document converter demo</title>
+    </h:head>
+    <h:body>
+        <p:dialog modal="true" widgetVar="statusDialog" header="Status" draggable="false" closable="false" resizable="false">
+            <p:graphicImage name="/ajax-loader.gif" />
+        </p:dialog>
+    <h:form enctype="multipart/form-data">
+        <p>
+            Converts any .dox, .docx, .xls, .xlsx or .pdf file to PDF/A.
+        </p>
+        <p:growl id="messages" showDetail="true" />
+        <p:fileUpload value="#{fileBean.upload}" mode="simple" label="Select .dox, .docx, .xls, .xlsx or .pdf file"/><br/>
+        <p:commandButton value="convert to PDF/A" ajax="false" actionListener="#{fileBean.convert()}">
+            <p:fileDownload value="#{fileBean.download}" />
+        </p:commandButton>
+    </h:form>    
+    <script type="text/javascript">
+        function start() {
+            PF('statusDialog').show();
+        }
+
+        function stop() {
+            PF('statusDialog').hide();
+        }
+    </script>    
+    </h:body>
+</html>
+

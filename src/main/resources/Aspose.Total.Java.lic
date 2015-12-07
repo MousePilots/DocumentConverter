@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<License>
+  <Data>
+    <LicensedTo>Sogeti Nederland BV</LicensedTo>
+    <EmailTo>jurjen.van.geenen@sogeti.nl</EmailTo>
+    <LicenseType>Developer OEM</LicenseType>
+    <LicenseNote>Limited to 1 developer, unlimited physical locations</LicenseNote>
+    <OrderID>151207055236</OrderID>
+    <UserID>295841</UserID>
+    <OEM>This is a redistributable license</OEM>
+    <Products>
+      <Product>Aspose.Total for Java</Product>
+    </Products>
+    <EditionType>Enterprise</EditionType>
+    <SerialNumber>353649a8-c97a-408b-b09e-dd3d4d5e7094</SerialNumber>
+    <SubscriptionExpiry>20161207</SubscriptionExpiry>
+    <LicenseExpiry>20160106</LicenseExpiry>
+    <ExpiryNote>This is a temporary license for non-commercial use only and it will expire on 2016-01-06.</ExpiryNote>
+    <LicenseVersion>3.0</LicenseVersion>
+    <LicenseInstructions>http://www.aspose.com/corporate/purchase/license-instructions.aspx</LicenseInstructions>
+  </Data>
+  <Signature>X6y5jh2TgOJR6Z65DVkzVsuA9Xj9dBpFFkUCjOCrl3T6VrUGvZJY8iyRANiFQbCjKYcoe5tMK/3PfarO6xRn7n8l7m2AiYPy3mHdDQ6buxi/+H3mKWSl8KBbzUO8QuRxeI+He8b8Ar586hi2j3yTod4nZppLJVyMyfpJt0fOZGU=</Signature>
+</License>
